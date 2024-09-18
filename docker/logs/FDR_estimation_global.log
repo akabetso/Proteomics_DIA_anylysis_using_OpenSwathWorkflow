@@ -1,0 +1,16 @@
+/usr/local/lib/python3.9/site-packages/pyprophet-2.2.5-py3.9-linux-x86_64.egg/pyprophet/stats.py:377: RuntimeWarning: divide by zero encountered in divide
+  sens = tp / (num_total - num_null)
+================================================================================
+   qvalue  ...    cutoff
+0    0.00  ...  3.977158
+1    0.01  ...       NaN
+2    0.02  ...       NaN
+3    0.05  ...  3.892956
+4    0.10  ...  3.839463
+5    0.20  ...  3.682698
+6    0.30  ...  3.619190
+7    0.40  ...  3.557518
+8    0.50  ...  3.521608
+
+[9 rows x 12 columns]
+================================================================================

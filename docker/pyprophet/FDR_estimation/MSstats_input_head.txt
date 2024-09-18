@@ -1,0 +1,7 @@
+"ProteinName"	"PeptideSequence"	"PrecursorCharge"	"FragmentIon"	"ProductCharge"	"IsotopeLabelType"	"Intensity"	"BioReplicate"	"Condition"	"Run"
+"sp|P14625|ENPL_HUMAN"	"IYFMAGSSR"	2	"101226_y4_1"	NA	"light"	NA	"../docker/results/Sample3.mzML"	"../docker/results/Sample3.mzML"	3
+"sp|P14625|ENPL_HUMAN"	"IYFMAGSSR"	2	"101226_y4_1"	NA	"light"	NA	"../docker/results/Sample4.mzML"	"../docker/results/Sample4.mzML"	4
+"sp|P14625|ENPL_HUMAN"	"IYFMAGSSR"	2	"101226_y4_1"	NA	"light"	NA	"../docker/results/Sample4.mzML"	"../docker/results/Sample4.mzML"	4
+"sp|P14625|ENPL_HUMAN"	"IYFMAGSSR"	2	"101226_y4_1"	NA	"light"	6260.5	"../docker/results/Sample4.mzML"	"../docker/results/Sample4.mzML"	4
+"sp|P14625|ENPL_HUMAN"	"IYFMAGSSR"	2	"101226_y4_1"	NA	"light"	42341.7	"../docker/results/Sample4.mzML"	"../docker/results/Sample4.mzML"	4
+"sp|P14625|ENPL_HUMAN"	"IYFMAGSSR"	2	"101226_y4_1"	NA	"light"	2596250	"../docker/results/Sample5.mzML"	"../docker/results/Sample5.mzML"	5

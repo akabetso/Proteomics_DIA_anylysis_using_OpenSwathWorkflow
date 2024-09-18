@@ -1,0 +1,30 @@
+^CTraceback (most recent call last):
+  File "/usr/local/bin/pyprophet", line 33, in <module>
+    sys.exit(load_entry_point('pyprophet==2.2.5', 'console_scripts', 'pyprophet')())
+  File "/usr/local/bin/pyprophet", line 25, in importlib_load_entry_point
+    return next(matches).load()
+  File "/usr/local/lib/python3.9/importlib/metadata.py", line 77, in load
+    module = import_module(match.group('module'))
+  File "/usr/local/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/usr/local/lib/python3.9/site-packages/pyprophet-2.2.5-py3.9-linux-x86_64.egg/pyprophet/main.py", line 8, in <module>
+    from .runner import PyProphetLearner, PyProphetWeightApplier
+  File "/usr/local/lib/python3.9/site-packages/pyprophet-2.2.5-py3.9-linux-x86_64.egg/pyprophet/runner.py", line 12, in <module>
+    from .pyprophet import PyProphet
+  File "/usr/local/lib/python3.9/site-packages/pyprophet-2.2.5-py3.9-linux-x86_64.egg/pyprophet/pyprophet.py", line 11, in <module>
+    from .stats import (lookup_values_from_error_table, error_statistics,
+  File "/usr/local/lib/python3.9/site-packages/pyprophet-2.2.5-py3.9-linux-x86_64.egg/pyprophet/stats.py", line 15, in <module>
+    from .report import plot_hist, main_score_selection_report
+  File "/usr/local/lib/python3.9/site-packages/pyprophet-2.2.5-py3.9-linux-x86_64.egg/pyprophet/report.py", line 5, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.9/site-packages/matplotlib-3.7.0-py3.9-linux-x86_64.egg/matplotlib/pyplot.py", line 55, in <module>
+    from matplotlib import rcsetup, style
+  File "/usr/local/lib/python3.9/site-packages/matplotlib-3.7.0-py3.9-linux-x86_64.egg/matplotlib/style/__init__.py", line 1, in <module>
+    from .core import available, context, library, reload_library, use
+KeyboardInterrupt

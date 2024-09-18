@@ -1,0 +1,42 @@
+Calling pre scored osws merge function
+Info: Merged runs of file /swath/osw_output_Sample1.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged runs of file /swath/osw_output_Sample2.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged runs of file /swath/osw_output_Sample3.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged runs of file /swath/osw_output_Sample4.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged runs of file /swath/osw_output_Sample5.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged runs of file /swath/osw_output_Sample6.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged runs of file /swath/osw_output_Sample7.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged runs of file /swath/osw_output_Sample8.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged generic features of file /swath/osw_output_Sample1.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged generic features of file /swath/osw_output_Sample2.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged generic features of file /swath/osw_output_Sample3.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged generic features of file /swath/osw_output_Sample4.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged generic features of file /swath/osw_output_Sample5.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged generic features of file /swath/osw_output_Sample6.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged generic features of file /swath/osw_output_Sample7.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged generic features of file /swath/osw_output_Sample8.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged MS1 features of file /swath/osw_output_Sample1.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged MS1 features of file /swath/osw_output_Sample2.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged MS1 features of file /swath/osw_output_Sample3.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged MS1 features of file /swath/osw_output_Sample4.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged MS1 features of file /swath/osw_output_Sample5.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged MS1 features of file /swath/osw_output_Sample6.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged MS1 features of file /swath/osw_output_Sample7.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged MS1 features of file /swath/osw_output_Sample8.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged MS2 features of file /swath/osw_output_Sample1.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged MS2 features of file /swath/osw_output_Sample2.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged MS2 features of file /swath/osw_output_Sample3.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged MS2 features of file /swath/osw_output_Sample4.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged MS2 features of file /swath/osw_output_Sample5.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged MS2 features of file /swath/osw_output_Sample6.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged MS2 features of file /swath/osw_output_Sample7.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged MS2 features of file /swath/osw_output_Sample8.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged transition features of file /swath/osw_output_Sample1.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged transition features of file /swath/osw_output_Sample2.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged transition features of file /swath/osw_output_Sample3.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged transition features of file /swath/osw_output_Sample4.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged transition features of file /swath/osw_output_Sample5.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged transition features of file /swath/osw_output_Sample6.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged transition features of file /swath/osw_output_Sample7.mzML.osw to /pypro/merged_samples.osw.
+Info: Merged transition features of file /swath/osw_output_Sample8.mzML.osw to /pypro/merged_samples.osw.
+Info: All OSWS files were merged.

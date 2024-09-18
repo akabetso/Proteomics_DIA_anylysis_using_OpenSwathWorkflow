@@ -1,0 +1,85 @@
+Info: Enable number of transitions & precursor / product charge scores for XGBoost-based classifier
+Info: Learn and apply classifier from input data.
+Warning: Column var_mi_score contains only invalid/missing values. Column will be dropped.
+Warning: Column var_mi_weighted_score contains only invalid/missing values. Column will be dropped.
+Warning: Column var_mi_ratio_score contains only invalid/missing values. Column will be dropped.
+Warning: Column var_elution_model_fit_score contains only invalid/missing values. Column will be dropped.
+Warning: Column var_im_xcorr_shape contains only invalid/missing values. Column will be dropped.
+Warning: Column var_im_xcorr_coelution contains only invalid/missing values. Column will be dropped.
+Warning: Column var_im_delta_score contains only invalid/missing values. Column will be dropped.
+Warning: Column var_sonar_lag contains only invalid/missing values. Column will be dropped.
+Warning: Column var_sonar_shape contains only invalid/missing values. Column will be dropped.
+Warning: Column var_sonar_log_sn contains only invalid/missing values. Column will be dropped.
+Warning: Column var_sonar_log_diff contains only invalid/missing values. Column will be dropped.
+Warning: Column var_sonar_log_trend contains only invalid/missing values. Column will be dropped.
+Warning: Column var_sonar_rsq contains only invalid/missing values. Column will be dropped.
+Info: Data set contains 238493 decoy and 240802 target groups.
+Info: Summary of input data:
+Info: 2333880 peak groups
+Info: 479295 group ids
+Info: 23 scores including main score
+Info: Semi-supervised learning of weights:
+Info: Start learning on 10 folds using 1 processes.
+Info: Learning on cross-validation fold.
+Info: Updated main score column from main_var_xcorr_shape to var_library_manhattan...
+Info: Updated main score column from main_var_xcorr_shape to var_library_manhattan...
+Info: Learning on cross-validation fold.
+Info: Learning on cross-validation fold.
+Info: Updated main score column from main_var_xcorr_shape to var_xcorr_coelution_weighted...
+Info: Updated main score column from main_var_xcorr_shape to var_xcorr_coelution_weighted...
+Info: Learning on cross-validation fold.
+Info: Learning on cross-validation fold.
+Info: Learning on cross-validation fold.
+Info: Updated main score column from main_var_xcorr_shape to var_precursor_charge...
+Info: Updated main score column from main_var_xcorr_shape to var_precursor_charge...
+Info: Learning on cross-validation fold.
+Info: Learning on cross-validation fold.
+Info: Learning on cross-validation fold.
+Info: Learning on cross-validation fold.
+Info: Finished learning.
+Info: Learning on cross-validated scores.
+Info: Importance of var_massdev_score_weighted: 257.4515380859375
+Info: Importance of main_var_xcorr_shape: 106.22959899902344
+Info: Importance of var_precursor_charge: 54.787681579589844
+Info: Importance of var_dotprod_score: 47.913352966308594
+Info: Importance of var_xcorr_coelution_weighted: 32.9070930480957
+Info: Importance of var_isotope_overlap_score: 26.660911560058594
+Info: Importance of var_library_corr: 20.850107192993164
+Info: Importance of var_yseries_score: 15.711434364318848
+Info: Importance of var_bseries_score: 12.656994819641113
+Info: Importance of var_manhattan_score: 12.38913345336914
+Info: Importance of var_massdev_score: 12.23923110961914
+Info: Importance of var_isotope_correlation_score: 12.083843231201172
+Info: Importance of var_library_rootmeansquare: 11.434122085571289
+Info: Importance of var_library_manhattan: 11.363188743591309
+Info: Importance of var_intensity_score: 10.120488166809082
+Info: Importance of var_log_sn_score: 9.579411506652832
+Info: Importance of var_library_dotprod: 9.221386909484863
+Info: Importance of var_library_sangle: 7.668732166290283
+Info: Importance of var_library_rmsd: 6.784470558166504
+Info: Importance of var_norm_rt_score: 5.755207538604736
+Info: Importance of var_xcorr_coelution: 5.561900615692139
+Info: Importance of var_xcorr_shape_weighted: 5.4146409034729
+Info: Data set contains 238493 decoy and 240802 target groups.
+Info: Mean qvalue = 1.181060e-02, std_dev qvalue = 1.048349e-02
+Info: Mean svalue = 9.205836e-01, std_dev svalue = 5.482246e-02
+Info: Finished scoring and estimation statistics.
+Info: Processing input data finished.
+Info: Time needed: 01:38:54.8
+================================================================================
+   qvalue  ...    cutoff
+0    0.00  ...  4.643378
+1    0.01  ...  1.313267
+2    0.02  ...  0.945493
+3    0.05  ... -0.119607
+4    0.10  ... -2.022619
+5    0.20  ...       NaN
+6    0.30  ...       NaN
+7    0.40  ...       NaN
+8    0.50  ...       NaN
+
+[9 rows x 12 columns]
+================================================================================
+Info: /pypro_score/scored_merged_samples.osw written.
+Info: /pypro_score/scored_merged_samples_ms2_report.pdf written.
+Info: Total time: 5934 seconds and 831 msecs wall time

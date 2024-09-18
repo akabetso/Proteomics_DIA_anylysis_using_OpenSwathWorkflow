@@ -1,0 +1,143 @@
+Progress of 'Load PQP file':
+-- done [took 4.64 s (CPU), 4.43 s (Wall)] -- 
+Loaded 10238 proteins, 60466 compounds with 362796 transitions.
+Loading mzML file ../docker/results/Sample4.mzML using readoptions cache
+Progress of 'Loading metadata file ../docker/results/Sample4.mzML':
+Will analyze the metadata first to determine the number of SWATH windows and the window sizes.
+Determined there to be 52 SWATH windows and in total 2519 MS1 spectra
+Determined there to be 52 SWATH windows and in total 2519 MS1 spectra
+-- done [took 20.73 s (CPU), 20.77 s (Wall)] -- 
+Progress of 'Loading data file ../docker/results/Sample4.mzML':
+Read chromatogram while reading SWATH files, did not expect that!
+-- done [took 01:21 m (CPU), 01:26 m (Wall)] -- 
+Will load iRT transitions and try to find iRT peptides
+Progress of 'Load TSV file':
+Warning: Found multiple peptide sequences for peptide label group light. This is most likely an error and to fix this, a new peptide label group will be inferred - to override this decision, please use the override_group_label_check parameter.
+-- done [took 0.01 s (CPU), 0.01 s (Wall)] -- 
+Progress of 'Extract iRT chromatograms':
+ - Warning: Detected 1 empty chromatograms. Will skip them!
+ - Warning: Detected 1 empty chromatograms. Will skip them!
+-- done [took 0.64 s (CPU), 1.32 s (Wall)] -- 
+Progress of 'Retention time normalization':
+2519 spectra and 0 chromatograms stored.
+2470 spectra and 0 chromatograms stored.
+2469 spectra and 0 chromatograms stored.
+1235 spectra and 0 chromatograms stored.
+<2469 spectra and 0 chromatograms stored.> occurred 49 times
+1234 spectra and 0 chromatograms stored.
+Will analyse 20 peptides with a total of 100 transitions 
+MRMRTNormalizer::computeBinnedCoverage : computed bin was too large (10), setting it to the maximum of 9
+MRMRTNormalizer::computeBinnedCoverage : computed bin was too large (10), setting it to the maximum of 9
+# mz regression parameters: Y = 2.33052 + -0.00830057 X + 3.65298e-06 X^2
+ sum residual sq ppm before 142.583 / after 88.6168
+-- done [took 0.12 s (CPU), 0.12 s (Wall)] -- 
+Will analyze 362796 transitions in total.
+Progress of 'Extracting and scoring transitions':
+Use non-nested loop with 1 threads.
+  1.89 %               Thread 0_0 will analyze 471 compounds and 2826 transitions from SWATH 1 (batch 0 out of 1)
+Thread 0_0 will analyze 471 compounds and 2826 transitions from SWATH 1 (batch 1 out of 1)
+  3.77 %               Thread 0_0 will analyze 537 compounds and 3222 transitions from SWATH 2 (batch 0 out of 1)
+Thread 0_0 will analyze 537 compounds and 3222 transitions from SWATH 2 (batch 1 out of 1)
+  5.66 %               Thread 0_0 will analyze 621 compounds and 3726 transitions from SWATH 3 (batch 0 out of 1)
+Thread 0_0 will analyze 621 compounds and 3726 transitions from SWATH 3 (batch 1 out of 1)
+  7.55 %               Thread 0_0 will analyze 724 compounds and 4344 transitions from SWATH 4 (batch 0 out of 1)
+Thread 0_0 will analyze 724 compounds and 4344 transitions from SWATH 4 (batch 1 out of 1)
+  9.43 %               Thread 0_0 will analyze 924 compounds and 5544 transitions from SWATH 5 (batch 0 out of 1)
+Thread 0_0 will analyze 924 compounds and 5544 transitions from SWATH 5 (batch 1 out of 1)
+  11.32 %               Thread 0_0 will analyze 1130 compounds and 6780 transitions from SWATH 6 (batch 0 out of 1)
+Thread 0_0 will analyze 1130 compounds and 6780 transitions from SWATH 6 (batch 1 out of 1)
+  13.21 %               Thread 0_0 will analyze 1251 compounds and 7506 transitions from SWATH 7 (batch 0 out of 1)
+Thread 0_0 will analyze 1251 compounds and 7506 transitions from SWATH 7 (batch 1 out of 1)
+  15.09 %               Thread 0_0 will analyze 1351 compounds and 8106 transitions from SWATH 8 (batch 0 out of 1)
+Thread 0_0 will analyze 1351 compounds and 8106 transitions from SWATH 8 (batch 1 out of 1)
+  16.98 %               Thread 0_0 will analyze 1452 compounds and 8712 transitions from SWATH 9 (batch 0 out of 1)
+Thread 0_0 will analyze 1452 compounds and 8712 transitions from SWATH 9 (batch 1 out of 1)
+  18.87 %               Thread 0_0 will analyze 1618 compounds and 9708 transitions from SWATH 10 (batch 0 out of 1)
+Thread 0_0 will analyze 1618 compounds and 9708 transitions from SWATH 10 (batch 1 out of 1)
+  20.75 %               Thread 0_0 will analyze 1781 compounds and 10686 transitions from SWATH 11 (batch 0 out of 1)
+Thread 0_0 will analyze 1781 compounds and 10686 transitions from SWATH 11 (batch 1 out of 1)
+  22.64 %               Thread 0_0 will analyze 1873 compounds and 11238 transitions from SWATH 12 (batch 0 out of 1)
+Thread 0_0 will analyze 1873 compounds and 11238 transitions from SWATH 12 (batch 1 out of 1)
+  24.53 %               Thread 0_0 will analyze 1943 compounds and 11658 transitions from SWATH 13 (batch 0 out of 1)
+Thread 0_0 will analyze 1943 compounds and 11658 transitions from SWATH 13 (batch 1 out of 1)
+  26.42 %               Thread 0_0 will analyze 1939 compounds and 11634 transitions from SWATH 14 (batch 0 out of 1)
+Thread 0_0 will analyze 1939 compounds and 11634 transitions from SWATH 14 (batch 1 out of 1)
+  28.30 %               Thread 0_0 will analyze 1944 compounds and 11664 transitions from SWATH 15 (batch 0 out of 1)
+Thread 0_0 will analyze 1944 compounds and 11664 transitions from SWATH 15 (batch 1 out of 1)
+  30.19 %               Thread 0_0 will analyze 1938 compounds and 11628 transitions from SWATH 16 (batch 0 out of 1)
+Thread 0_0 will analyze 1938 compounds and 11628 transitions from SWATH 16 (batch 1 out of 1)
+  32.08 %               Thread 0_0 will analyze 1928 compounds and 11568 transitions from SWATH 17 (batch 0 out of 1)
+Thread 0_0 will analyze 1928 compounds and 11568 transitions from SWATH 17 (batch 1 out of 1)
+  33.96 %               Thread 0_0 will analyze 1899 compounds and 11394 transitions from SWATH 18 (batch 0 out of 1)
+Thread 0_0 will analyze 1899 compounds and 11394 transitions from SWATH 18 (batch 1 out of 1)
+  35.85 %               Thread 0_0 will analyze 1955 compounds and 11730 transitions from SWATH 19 (batch 0 out of 1)
+Thread 0_0 will analyze 1955 compounds and 11730 transitions from SWATH 19 (batch 1 out of 1)
+  37.74 %               Thread 0_0 will analyze 1915 compounds and 11490 transitions from SWATH 20 (batch 0 out of 1)
+Thread 0_0 will analyze 1915 compounds and 11490 transitions from SWATH 20 (batch 1 out of 1)
+  39.62 %               Thread 0_0 will analyze 1762 compounds and 10572 transitions from SWATH 21 (batch 0 out of 1)
+Thread 0_0 will analyze 1762 compounds and 10572 transitions from SWATH 21 (batch 1 out of 1)
+  41.51 %               Thread 0_0 will analyze 1717 compounds and 10302 transitions from SWATH 22 (batch 0 out of 1)
+Thread 0_0 will analyze 1717 compounds and 10302 transitions from SWATH 22 (batch 1 out of 1)
+  43.40 %               Thread 0_0 will analyze 1689 compounds and 10134 transitions from SWATH 23 (batch 0 out of 1)
+Thread 0_0 will analyze 1689 compounds and 10134 transitions from SWATH 23 (batch 1 out of 1)
+  45.28 %               Thread 0_0 will analyze 1591 compounds and 9546 transitions from SWATH 24 (batch 0 out of 1)
+Thread 0_0 will analyze 1591 compounds and 9546 transitions from SWATH 24 (batch 1 out of 1)
+  47.17 %               Thread 0_0 will analyze 1547 compounds and 9282 transitions from SWATH 25 (batch 0 out of 1)
+Thread 0_0 will analyze 1547 compounds and 9282 transitions from SWATH 25 (batch 1 out of 1)
+  49.06 %               Thread 0_0 will analyze 1536 compounds and 9216 transitions from SWATH 26 (batch 0 out of 1)
+Thread 0_0 will analyze 1536 compounds and 9216 transitions from SWATH 26 (batch 1 out of 1)
+  50.94 %               Thread 0_0 will analyze 1447 compounds and 8682 transitions from SWATH 27 (batch 0 out of 1)
+Thread 0_0 will analyze 1447 compounds and 8682 transitions from SWATH 27 (batch 1 out of 1)
+  52.83 %               Thread 0_0 will analyze 1369 compounds and 8214 transitions from SWATH 28 (batch 0 out of 1)
+Thread 0_0 will analyze 1369 compounds and 8214 transitions from SWATH 28 (batch 1 out of 1)
+  54.72 %               Thread 0_0 will analyze 1245 compounds and 7470 transitions from SWATH 29 (batch 0 out of 1)
+Thread 0_0 will analyze 1245 compounds and 7470 transitions from SWATH 29 (batch 1 out of 1)
+  56.60 %               Thread 0_0 will analyze 1263 compounds and 7578 transitions from SWATH 30 (batch 0 out of 1)
+Thread 0_0 will analyze 1263 compounds and 7578 transitions from SWATH 30 (batch 1 out of 1)
+  58.49 %               Thread 0_0 will analyze 1195 compounds and 7170 transitions from SWATH 31 (batch 0 out of 1)
+Thread 0_0 will analyze 1195 compounds and 7170 transitions from SWATH 31 (batch 1 out of 1)
+  60.38 %               Thread 0_0 will analyze 1127 compounds and 6762 transitions from SWATH 32 (batch 0 out of 1)
+Thread 0_0 will analyze 1127 compounds and 6762 transitions from SWATH 32 (batch 1 out of 1)
+  62.26 %               Thread 0_0 will analyze 1101 compounds and 6606 transitions from SWATH 33 (batch 0 out of 1)
+Thread 0_0 will analyze 1101 compounds and 6606 transitions from SWATH 33 (batch 1 out of 1)
+  64.15 %               Thread 0_0 will analyze 1045 compounds and 6270 transitions from SWATH 34 (batch 0 out of 1)
+Thread 0_0 will analyze 1045 compounds and 6270 transitions from SWATH 34 (batch 1 out of 1)
+  66.04 %               Thread 0_0 will analyze 1051 compounds and 6306 transitions from SWATH 35 (batch 0 out of 1)
+Thread 0_0 will analyze 1051 compounds and 6306 transitions from SWATH 35 (batch 1 out of 1)
+  67.92 %               Thread 0_0 will analyze 1002 compounds and 6012 transitions from SWATH 36 (batch 0 out of 1)
+Thread 0_0 will analyze 1002 compounds and 6012 transitions from SWATH 36 (batch 1 out of 1)
+  69.81 %               Thread 0_0 will analyze 893 compounds and 5358 transitions from SWATH 37 (batch 0 out of 1)
+Thread 0_0 will analyze 893 compounds and 5358 transitions from SWATH 37 (batch 1 out of 1)
+  71.70 %               Thread 0_0 will analyze 826 compounds and 4956 transitions from SWATH 38 (batch 0 out of 1)
+Thread 0_0 will analyze 826 compounds and 4956 transitions from SWATH 38 (batch 1 out of 1)
+  73.58 %               Thread 0_0 will analyze 816 compounds and 4896 transitions from SWATH 39 (batch 0 out of 1)
+Thread 0_0 will analyze 816 compounds and 4896 transitions from SWATH 39 (batch 1 out of 1)
+  75.47 %               Thread 0_0 will analyze 756 compounds and 4536 transitions from SWATH 40 (batch 0 out of 1)
+Thread 0_0 will analyze 756 compounds and 4536 transitions from SWATH 40 (batch 1 out of 1)
+  77.36 %               Thread 0_0 will analyze 744 compounds and 4464 transitions from SWATH 41 (batch 0 out of 1)
+Thread 0_0 will analyze 744 compounds and 4464 transitions from SWATH 41 (batch 1 out of 1)
+  79.25 %               Thread 0_0 will analyze 660 compounds and 3960 transitions from SWATH 42 (batch 0 out of 1)
+Thread 0_0 will analyze 660 compounds and 3960 transitions from SWATH 42 (batch 1 out of 1)
+  81.13 %               Thread 0_0 will analyze 656 compounds and 3936 transitions from SWATH 43 (batch 0 out of 1)
+Thread 0_0 will analyze 656 compounds and 3936 transitions from SWATH 43 (batch 1 out of 1)
+  83.02 %               Thread 0_0 will analyze 596 compounds and 3576 transitions from SWATH 44 (batch 0 out of 1)
+Thread 0_0 will analyze 596 compounds and 3576 transitions from SWATH 44 (batch 1 out of 1)
+  84.91 %               Thread 0_0 will analyze 535 compounds and 3210 transitions from SWATH 45 (batch 0 out of 1)
+Thread 0_0 will analyze 535 compounds and 3210 transitions from SWATH 45 (batch 1 out of 1)
+  86.79 %               Thread 0_0 will analyze 522 compounds and 3132 transitions from SWATH 46 (batch 0 out of 1)
+Thread 0_0 will analyze 522 compounds and 3132 transitions from SWATH 46 (batch 1 out of 1)
+  88.68 %               Thread 0_0 will analyze 481 compounds and 2886 transitions from SWATH 47 (batch 0 out of 1)
+Thread 0_0 will analyze 481 compounds and 2886 transitions from SWATH 47 (batch 1 out of 1)
+  90.57 %               Thread 0_0 will analyze 412 compounds and 2472 transitions from SWATH 48 (batch 0 out of 1)
+Thread 0_0 will analyze 412 compounds and 2472 transitions from SWATH 48 (batch 1 out of 1)
+  92.45 %               Thread 0_0 will analyze 396 compounds and 2376 transitions from SWATH 49 (batch 0 out of 1)
+Thread 0_0 will analyze 396 compounds and 2376 transitions from SWATH 49 (batch 1 out of 1)
+  94.34 %               Thread 0_0 will analyze 377 compounds and 2262 transitions from SWATH 50 (batch 0 out of 1)
+Thread 0_0 will analyze 377 compounds and 2262 transitions from SWATH 50 (batch 1 out of 1)
+  96.23 %               Thread 0_0 will analyze 361 compounds and 2166 transitions from SWATH 51 (batch 0 out of 1)
+Thread 0_0 will analyze 361 compounds and 2166 transitions from SWATH 51 (batch 1 out of 1)
+  98.11 %               Thread 0_0 will analyze 278 compounds and 1668 transitions from SWATH 52 (batch 0 out of 1)
+Thread 0_0 will analyze 278 compounds and 1668 transitions from SWATH 52 (batch 1 out of 1)
+  100.00 %               -- done [took 08:02 m (CPU), 08:08 m (Wall)] -- 
+OpenSwathWorkflow took 10:02 m (wall), 09:51 m (CPU), 11.25 s (system), 09:39 m (user); Peak Memory Usage: 903 MB.
+<Warning: Found multiple peptide sequences for peptide label group light. This is most likely an error and to fix this, a new peptide label group will be inferred - to override this decision, please use the override_group_label_check parameter.> occurred 90 times

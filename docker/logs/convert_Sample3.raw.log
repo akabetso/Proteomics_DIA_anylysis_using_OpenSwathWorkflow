@@ -1,0 +1,25 @@
+[?25lformat: mzML[K
+[?25h[?25l    m/z: Compression-Zlib, 64-bit
+[?25h[?25l    intensity: Compression-Zlib, 64-bit
+[?25h[?25l    rt: Compression-Zlib, 64-bit
+[?25h[?25lByteOrder_LittleEndian
+[?25h[?25l indexed="true"
+[?25h[?25loutputPath: /results
+[?25h[?25lextension: .mzML
+[?25h[?25lcontactFilename:[K
+[?25h[?25lrunIndexSet:[K
+[?25h
+[?25lspectrum list filters:
+  peakPicking true 1
+  demultiplex optimization=overlap_only
+[K
+[?25h[?25lchromatogram list filters:
+[K
+[?25h[?25lfilenames:
+  /data\Sample3.raw
+[K
+[?25h[?25lprocessing file: /data\Sample3.raw
+[?25h[?25lcalculating source file checksums
+[?25h
+[?25lwriting output file: /results\Sample3.mzML
+[?25h
