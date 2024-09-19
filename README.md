@@ -49,15 +49,15 @@ AS describe in figure 2, a more common approach is the bottom-up approach where,
 
 The Dataset used for this study as described by Galaxy was downloaded from [Zenodo](https://zenodo.org/records/4307762). They lysed HEK and E.coli cell pellets with 5 % SDS In order to solubilize cell memranes and proteins, 50 mM triethylammonium bicarbonate (TEAB) to stabilize the proteins and protect from degradation, pH 7.55. They further ensured all disulfied bonds were broken through reduction of the protein extracts by adding f.c. 5 mM TCEP and alkylated by the addition of f.c. 10 mM iodacetamide to prevent the reformation of disulfied bonds and proceeded with protein digestion and purification on S-Trap columns. To ensure protein binding to the S-Trap columns, the samples were acidified to a final concentration of 1.2 % phosphoric acid (~ pH 2). Six times the sample volume S-Trap buffer (90% aqueous methanol containing a final concentration of 100 mM TEAB, pH 7.1) was added to the samples which were then loaded on the columns and washed with S-Trap buffer. Protein digestion to peptides was performed with trypsin and LysC for one hour at 47 °C. Peptides were eluted in three steps with (1) 50 mM TEAB, (2) 0.2 % aqueous formic acid and (3) 50 % acetonitrile containing 0.2 % formic acid. Eluted peptides of HEK and E.coli were mixed in two different ratios and four replicates of each Spike/in ratio were measured:
 
-Sample    HEK    E.coli    MS method
-Sample1    2.5      0.15        DIA
-Sample2    2.5      0.15        DIA
-Sample3    2.5      0.15        DIA
-Sample4    2.5      0.15        DIA
-Sample5    2.5      0.80        DIA
-Sample6    2.5      0.80        DIA
-Sample7    2.5      0.80        DIA
-Sample8    2.5      0.80        DIA
+Sample    HEK    E.coli    MS method \
+Sample1    2.5      0.15        DIA \
+Sample2    2.5      0.15        DIA \
+Sample3    2.5      0.15        DIA \
+Sample4    2.5      0.15        DIA \
+Sample5    2.5      0.80        DIA \
+Sample6    2.5      0.80        DIA \
+Sample7    2.5      0.80        DIA \
+Sample8    2.5      0.80        DIA 
 
 Additionally, iRT peptides were added and 1µg of each samples was measured using data independent acquisition with a Q-Exactive Plus mass spectrometer. Briefly, a scan range from 400-1000 m/Z was first covered by an MS1 scan followed by 25 consecutive MS2 scans (each 24 m/z broad). In the next cycle another MS1 scan was acquired followd by 26 MS2 scans (also 24m/z broad) in which the window centers were shifted by 50% compared to the previous cycle of MS2 scans. The resulting raw files contain overlapping MS2 scans.
 
@@ -81,7 +81,9 @@ The second two executions was running pyprophet proteins first on exeriment-wide
 
 **Figure 3:** Protein inference pyprophet report
 
-The q-/s value plot shows the relationship between false positive rate (q-value) and true positive rate (s-value). Typically we expect to see a curve that rises sharply indicating a strong ability to distinguish true from false positives. In our case, at q-value > 0.4, the system is unable to differentiate between false positive and true positive. Tthe curve levels off too early suggesting weaker performance. Generally, I did not have a good seperation between the target proteins and the false positive. what is important to do here is to rerum the workflow and consider using OpenSwathWorkflow in a Docker container. I proceeded to statiscal anylis to complete the pipelinge but reduced the q-value to pass the filter and to see some peptides. but this peptides are not confident since we can't tell if they are false positive or not based on the q-value.
+The q-/s value plot shows the relationship between false positive rate (q-value) and true positive rate (s-value). Typically we expect to see a curve that rises sharply indicating a strong ability to distinguish true from false positives. In our case, at q-value > 0.4, the system is unable to differentiate between false positive and true positive. The curve levels off too early suggesting weaker performance. 
+
+Generally, I did not have a good seperation between the target proteins and the false positive. what is important to do here is to rerum the workflow and consider using OpenSwathWorkflow in a Docker container. I proceeded to statiscal anylis to complete the pipelinge but reduced the q-value to pass the filter and to see some peptides. but this peptides are not confident since we can't tell if they are false positive or not based on the q-value.
 
 ## SWATH2stats
 
